@@ -83,7 +83,7 @@ const Hero = () => {
   })
   
   return (
-    <div className="relative h-dvh w-screen overflow-x-hidden">
+    <div id="prologue" className="relative h-dvh w-screen overflow-x-hidden">
     
       {isLoading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">

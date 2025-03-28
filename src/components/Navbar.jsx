@@ -99,10 +99,10 @@ const Navbar = () => {
 
                         {[1,2,3,4].map((bar) => (
                         <div 
-                        key={bar}
-                        className={`indicator-line ${isIndicatorActive ? 'active':'' }`}
-                        style={{ animationDelay : `${bar * 0.1}s` }}
-                        />
+                            key={bar}
+                            className={`indicator-line ${isIndicatorActive ? 'active':'' }`}
+                            style={{ animationDelay : `${bar * 0.1}s` }}
+                            />
                         ))}
 
                     </button>
